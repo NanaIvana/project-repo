@@ -17,8 +17,4 @@ export class Product extends BaseEntity {
     @Column()
     password!: string;
 
-    @Column()
-    passwords!: string;
-
-
 }
